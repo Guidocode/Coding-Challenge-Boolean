@@ -1,0 +1,94 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  background-color: #00000088;
+  border-radius: 20px;
+  padding: 70px;
+  width: 900px;
+  margin: auto;
+  margin-top: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+header, nav {
+  text-align: center;
+}
+
+.logo{
+  width: 180px;
+}
+
+header > h1 {
+  color: #2df809;
+  font-size: 22px;
+}
+
+.containerbuttons{
+  background-color: #2df809;
+  padding: 2px;
+  height: 30px;
+}
+
+.containerbuttons > button:hover {
+  color: #00aaff;
+  text-decoration: underline;
+}
+
+.scooter {
+  color: white;
+}
+
+.scooter > input {
+  position: relative;
+  bottom: 2px;
+}
+
+.scooter > .scootername {
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.scooter .info:before{
+  content: "\21A6";
+}
+
+.info {
+  font-size: 13px;
+}
+
+.statecharge1, .statecharge2, .statecharge3 {
+  height: 25px;
+  border-radius: 5px;
+}
+
+.statecharge1 {
+  background-color: #ecc559;
+  width: 300px;
+}
+
+.statecharge2 {
+  background-color: #02b504;
+  width: 500px;
+}
+
+.statecharge3 {
+  background-color: #d4183e;
+  width: 150px;
+}
+
+footer > h4 {
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-family: 'Great Vibes', cursive;
+}
